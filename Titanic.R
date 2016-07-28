@@ -1,8 +1,8 @@
 # Setting Working Directory
-setwd("C:/Users/GUNNAR/Desktop/Desktop Data/Kaggle/Titanic")
+setwd("~/Kaggle/Titanic")
 # Importing Datasets
-test <- read.csv("~/Desktop Data/Kaggle/Titanic/test.csv", stringsAsFactors = FALSE)
-train <- read.csv("~/Desktop Data/Kaggle/Titanic/train.csv", stringsAsFactors = FALSE)
+test <- read.csv("~/Kaggle/Titanic/test.csv", stringsAsFactors = FALSE)
+train <- read.csv("~/Kaggle/Titanic/train.csv", stringsAsFactors = FALSE)
 # Making prediction about the people that survived
 prop.table(table(train$Survived))
 # Getting to know something about the traing dataset dataframe
